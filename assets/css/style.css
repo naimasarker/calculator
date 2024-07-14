@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(234, 229, 229);
+    margin: 0;
+}
+.mcalcu {
+    width: 211px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.mcalcu .display {
+    background-color: rgb(17, 17, 240);
+    color: white;
+    border-radius: 33px;
+    padding: 13px;
+    font-size: medium;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.mcalcu button {
+    width: 37px;
+    padding: 13px;
+    font-size: medium;
+    margin-right: 2px;
+    margin-bottom: 7px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.mcalcu .white{
+    background-color: white;
+    color: black;
+}
+.mcalcu .neviblue{
+    background-color:darkslategray;
+    color: white;
+}
+
+.mcalcu .gray{
+    background-color: rgb(224, 219, 219);
+    color: black;
+}
+.mcalcu .red{
+    background-color: rgb(207, 21, 21);
+    color: white;
+}
+.mcalcu .blue{
+    background-color: blue;
+    color: white;
+}
+.mcalcu .yellow{
+    background-color: rgb(223, 223, 106);
+    color: white;
+}
+.mcalcu .green{
+    background-color: green;
+    color: white;
+}
